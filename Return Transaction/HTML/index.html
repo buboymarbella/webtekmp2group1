@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Purchase Return Transaction</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href=>
+</head>
+<body>
+<div class="container">
+    <h1>Purchase Return Transaction</h1>
+    <div class="content">
+        <div class="row">
+            <input id="searchInput" name="search" class="form-control" placeholder="Searching..."/>
+        </div>
+        
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Borrower</th>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Returned Quantity</th>
+                    <th>Date Returned</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                    <th>Remarks</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                     <td></td>
+                    <td><form>
+                        <input type="number" name="Returned Quantity">
+                        </form>
+                    </td>
+                     <td><form>
+                        <input type="date" name="Date Returned">
+                        </form>
+                    </td>
+                    <td></td>
+                    <td><div class = select> <select>
+                        <option value="Returned">Return</option>
+                        <option  value="Unreturned">Unreturned</option>
+                        </select></div>
+                    </td>
+                    <td>
+                        <form>
+                        <input type="text" name="Remarks">
+                        </form>
+                    </td>
+                                        
+                </tr>
+               
+                 <tr>
+                    <td></td>
+                    <td></td>
+                     <td></td>
+                    <td><form>
+                        <input type="number" name="Returned Quantity">
+                        </form>
+                    </td>
+                     <td><form>
+                        <input type="date" name="Date Returned">
+                        </form>
+                    </td>
+                    <td></td>
+                    <td><div class = select> <select>
+                        <option value="Return">Return</option>
+                        <option value="Unreturned">Unreturned</option>
+                            </select></div></td>
+                    <td>
+                        <form>
+                        <input type="text" name="Remarks">
+                        </form>
+                    </td>
+                                        
+                </tr>
+               
+                 <tr>
+                    <td></td>
+                    <td></td>
+                     <td></td>
+                    <td><form>
+                        <input type="number" name="Returned Quantity">
+                        </form>
+                    </td>
+                    <td><form>
+                        <input type="date" name="Date Returned">
+                        </form>
+                    </td>
+                    <td></td>
+                    <td><div class = select> <select>
+                        <option value="Return">Return</option>
+                        <option value="Unreturned">Unreturned</option>
+                        </select></div></td>
+                    <td>
+                        <form>
+                        <input type="text" name="Remarks">
+                        </form>
+                    </td>
+                                        
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="../filterForTable.js"></script>
+    <script>
+        $('table').filterForTable();
+    </script>
+    </div>
+</body>
+</html>
