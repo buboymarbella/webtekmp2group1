@@ -1,0 +1,26 @@
+@media only screen and (max-device-width: 480px) {  
+
+    #borrowform{
+        font-size: 50px;
+    } 
+    #fname{
+      font-size: 30px;  
+    }
+    #lname{
+        font-size: 30px;
+    }
+    #ename{
+        font-size: 30px;
+    }
+    #email{
+        font-size: 30px;
+    }
+    .contact{
+        font-size: 30px;
+    }
+    .calendar{
+        width: 400px;
+        height:100px;
+    }
+    
+}
