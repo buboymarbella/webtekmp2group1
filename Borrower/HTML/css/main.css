@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0 auto;
+}
+@media only screen and (max-device-width: 480px) {  
+
+    #borrowform{
+        font-size: 50px;
+    } 
+    #fname{
+      font-size: 30px;  
+    }
+    #lname{
+        font-size: 30px;
+    }
+    #ename{
+        font-size: 30px;
+    }
+    #email{
+        font-size: 30px;
+    }
+    .contact{
+        font-size: 30px;
+    }
+    .calendar{
+        width: 400px;
+        height:100px;
+    }
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: white !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+nav {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    background-color: grey;
+    ;
+}
+nav a {
+    text-decoration: none;
+    color: white !important;
+}
