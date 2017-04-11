@@ -8,14 +8,15 @@
 
 <body>
     <nav>
-            <a href = "Home.html"> home </a>
-            <div class="dropdown">
-                <span>Lend</span>
-                <div class="dropdown-content">
-                    <a href = "form.html"> form </a>
-                </div>
+    <a href = "index.html"> Home </a>
+        <div class="dropdown">
+            <span>Lend</span>
+            <div class="dropdown-content">
+                    <a href = "borrowform.html"> Borrow Form </a>
+                <a href = "inventoryview.html"> Inventory</a>
             </div>
-    </nav>
+        </div>
+    </nav>	
     <div class="form">
         <form action = "borrowform/ajax/barrower.php" method =" post">
             <h3 id='borrowform'>SSD Borrowing Form</h3>
@@ -39,7 +40,7 @@
             <input id="ename" name="ename" placeholder="Eventname" required="" tabindex="1" type="text">
 
 			
-			
+		  <div class='dateborrow'>
             <fieldset class= 'calendar'>
                 <label>Date of Borrowing:</label>
                 <label class="month">
@@ -74,7 +75,7 @@
 
 			<script src = "js/main.js"></script>
             </fieldset>
-
+</div>	
             <p class="contact">
                 <label for="phone">Mobile phone</label>
             </p>
