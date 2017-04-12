@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>SSD</title>
+		<title>Borrow form</title>
 		<link rel="stylesheet" type="text/css" href="borrowform/css/main.css">
 	</head>
 	
@@ -14,11 +14,14 @@
 			<div class="dropdown">
 				<span>Lend</span>
 				<div class="dropdown-content">
-                    <a href = "borrowform.html"> Borrow Form </a>
+					<a href = "borrowform.html"> Borrow Form </a>
 					<a href = "inventoryview.html"> Inventory</a>
 				</div>
 			</div>
-		</nav>	
+			<a href = "adjustedstock.html"> AdjustStock</a>
+			<a href = "rt.html"> Transaction</a>
+			
+		</nav>		
 		<div class="form">
 			<form action = "borrowform/ajax/barrower.php" method =" post">
 				<h3 id='borrowform'>SSD Borrowing Form</h3>
@@ -37,61 +40,62 @@
 				</p>
 				<input id="email" name="email" placeholder="example@domain.com" required="" type="email">
 				<p class="contact">
-					<label for="event">Event Name</label>
+				<label for="event">Event Name</label>
 				</p>
 				<input id="ename" name="ename" placeholder="Eventname" required="" tabindex="1" type="text">
 				
 				
 				<div class='dateborrow'>
-					<fieldset class= 'calendar'>
-						<label>Date of Borrowing:
-						</label>
-						<label class="month">
-							<select class="select-style" name="Month">
-								<option value="">Month</option>
-								<option value="01">January</option>
-								<option value="02">February</option>
-								<option value="03">March</option>
-								<option value="04">April</option>
-								<option value="05">May</option>
-								<option value="06">June</option>
-								<option value="07">July</option>
-								<option value="08">August</option>
-								<option value="09">September</option>
-								<option value="10">October</option>
-								<option value="11">November</option>
-								<option value="12">December</option>
-								
-							</select>
-						</label>
-						<br>
-						<label>Day
-							
-							<input class="dateb" maxlength="10" name="day" placeholder="Day" required="" size="2">
-						</label>
-						<br>
-						<label>Year
-							<input class="yearb" maxlength="4" name="year" placeholder="Year" required="" size="2">
-						</label>
-						<br>
-						Start Time:
-						<input type="time" name="strt_time">
-						<br>
-						End Time:
-						<input type="time" name="end_time">
-						
-						
-						<script src = "js/main.js"></script>
-					</fieldset>
+				<fieldset class= 'calendar'>
+				<label>Date of Borrowing:
+				</label>
+				<label class="month">
+				<select class="select-style" name="Month">
+				<option value="">Month</option>
+				<option value="01">January</option>
+				<option value="02">February</option>
+				<option value="03">March</option>
+				<option value="04">April</option>
+				<option value="05">May</option>
+				<option value="06">June</option>
+				<option value="07">July</option>
+				<option value="08">August</option>
+				<option value="09">September</option>
+				<option value="10">October</option>
+				<option value="11">November</option>
+				<option value="12">December</option>
+				
+				</select>
+				</label>
+				<br>
+				<label>Day
+				
+				<input class="dateb" maxlength="10" name="day" placeholder="Day" required="" size="2">
+				</label>
+				<br>
+				<label>Year
+				<input class="yearb" maxlength="4" name="year" placeholder="Year" required="" size="2">
+				</label>
+				<br>
+				Start Time:
+				<input type="time" name="strt_time">
+				<br>
+				End Time:
+				<input type="time" name="end_time">
+				
+				
+				<script src = "js/main.js"></script>
+				</fieldset>
 				</div>	
 				<p class="contact">
-					<label for="phone">Mobile phone</label>
+				<label for="phone">Mobile phone</label>
 				</p>
 				<input id="phone" name="phone" placeholder="phone number" required="" type="text">
 				<br>
 				<input class="buttom" name="submit" id="submit" tabindex="5" value="send" type="submit">
-			</form>
-		</div>
-	</body>
-	
-</html>
+				</form>
+				</div>
+				</body>
+				
+				</html>
+								

@@ -28,8 +28,6 @@ th {
 .dropdown {
     display: inline-block;
     color: white !important;
-    
-    
 }
 
 .dropdown-content {
@@ -48,19 +46,19 @@ th {
 	background-color: darkgrey;
 }
 .dropdown:hover .dropdown-content {
-	display: block;
+    display: block;
 	
 }
 nav {
-	padding: 10px 0;
-	width: 100%;
-	display: block;
-	background-color: grey;
-	;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+    background-color: grey;
+    ;
 }
 nav a {
-	text-decoration: none;
-	color: white !important;
+    text-decoration: none;
+    color: white !important;
 	padding:10px;
 	
 	
