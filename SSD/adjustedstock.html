@@ -1,63 +1,63 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Adjustable Stock</title>
-    <link rel="stylesheet" href="adjustedstocks/css/style.css">
-    </head>
-<body>
-    <nav>
-    <a href = "index.html"> Home </a>
-        <div class="dropdown">
-            <span>Lend</span>
-            <div class="dropdown-content">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Adjustable Stock</title>
+		<link rel="stylesheet" href="adjustedstocks/css/style.css">
+	</head>
+	<body>
+		<nav>
+			<a href = "index.html"> Home </a>
+			<div class="dropdown">
+				<span>Lend</span>
+				<div class="dropdown-content">
                     <a href = "borrowform.html"> Borrow Form </a>
-                <a href = "inventoryview.html"> Inventory</a>
-            </div>
-        </div>
-    </nav>	
-    <div class="container">
-        
-    <h1>Adjustable Stock</h1>
-        <div class="row">
-            <input id="searchInput" name="search" class="form-control" placeholder="Searching..."/>
-        </div>
-    
-        <div class="content">
-            <table id="myTable">
-            <thead>
-                <tr>
-                    
-                    <th>Item</th>
-                    <th>Quantity</th>
-                    <th>Adjustable Quantity</th>
-                </tr>
-            </thead>
-        <tr>
-            <td><input type="text" id="Item" /></td>
-            
-            <td><input type="number" id="Quantity" /></td>
-            
-            <td><form id='myform' method='POST' action='#'>
-                     <input type='button' value='-' class='qtyminus' />
-                     <input type='text' name='quantity[]' value='0' />
-                     <input type='button' value='+' class='qtyplus' />
+					<a href = "inventoryview.html"> Inventory</a>
+				</div>
+			</div>
+		</nav>	
+		<div class="container">
+			
+			<h1>Adjustable Stock</h1>
+			<div class="row">
+				<input id="searchInput" name="search" class="form-control" placeholder="Searching..."/>
+			</div>
+			
+			<div class="content">
+				<table id="myTable">
+					<thead>
+						<tr>
+							
+							<th>Item</th>
+							<th>Quantity</th>
+							<th>Adjustable Quantity</th>
+						</tr>
+					</thead>
+					<tr>
+						<td><input type="text" id="Item" /></td>
+					
+					<td><input type="number" id="Quantity" /></td>
+					
+					<td><form id='myform' method='POST' action='#'>
+					<input type='button' value='-' class='qtyminus' />
+					<input type='text' name='quantity[]' value='0' />
+					<input type='button' value='+' class='qtyplus' />
                     </form>
-            </td>
-            
-            <td><input type="button" id="btnAdd" class="button-add" onClick="insertRow()" value="add"></td>
-        </tr>
-</table>
-</div>
-        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script src="adjustedstocks/js/js/button.js"></script>
-        
-    <script src="adjustedstocks/js/filterForTable.js"></script>
-    
-        <script src="adjustedstocks/js/add.js"></script>
-    </div>
-
-    </body>
-</html>
-    
+					</td>
+					
+					<td><input type="button" id="btnAdd" class="button-add" onClick="insertRow()" value="add"></td>
+					</tr>
+					</table>
+					</div>
+					<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+					<script src="adjustedstocks/js/js/button.js"></script>
+					
+					<script src="adjustedstocks/js/filterForTable.js"></script>
+					
+					<script src="adjustedstocks/js/add.js"></script>
+					</div>
+					
+					</body>
+					</html>
+										

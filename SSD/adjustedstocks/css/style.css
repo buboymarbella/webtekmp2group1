@@ -17,14 +17,14 @@ body{margin:0;}
     z-index: 1;
 }
 .dropdown-content a {
-display: block;
+	display: block;
 }
 .dropdown-content a:hover {
-background-color: darkgrey;
+	background-color: darkgrey;
 }
 .dropdown:hover .dropdown-content {
     display: block;
-
+	
 }
 nav {
     padding: 10px;
@@ -37,11 +37,11 @@ nav a {
     text-decoration: none;
     color: white !important;
 	padding:10px;
-   
-      
+	
+	
 }
 nav a:hover {
-    text-decoration: none;
-    
+text-decoration: none;
+
 }
 /* End of Nav */
