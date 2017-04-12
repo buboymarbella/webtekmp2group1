@@ -1,40 +1,12 @@
-
-
-
-    #borrowform{
-        font-size: 50px;
-    } 
-    #fname{
-      font-size: 30px;  
-    }
-    #lname{
-        font-size: 30px;
-    }
-    #ename{
-        font-size: 30px;
-    }
-    #email{
-        font-size: 30px;
-    }
-    .contact{
-        font-size: 30px;
-    }
-    .calendar{
-        width: 400px;
-        height:100px;
-}
-    
-
+body{margin:0;}
 .dateborrow{
     width: 100%;
-    margin: auto;
+    margin: 20px auto;
 }
 /* Nav */
 .dropdown {
     display: inline-block;
     color: white !important;
-    
-    
 }
 
 .dropdown-content {
@@ -56,6 +28,7 @@ background-color: darkgrey;
     display: block;
 
 }
+
 nav {
     padding: 10px;
     width: 100%;
