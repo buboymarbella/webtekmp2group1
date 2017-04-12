@@ -47,7 +47,7 @@ caption{
     display: block;
 }
 nav {
-    padding: 10px;
+    padding: 10px 0;
     width: 100%;
     display: block;
     background-color: grey;

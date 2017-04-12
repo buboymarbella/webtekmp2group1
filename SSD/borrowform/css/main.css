@@ -10,8 +10,9 @@ label{
 .contact{
 }
 .form{
-	width:60%;
+	width:20%;
 	margin:auto;
+	
 }
 .calendar{
 	width:95%;
@@ -42,7 +43,7 @@ label{
     display: block;
 }
 nav {
-    padding: 10px;
+    padding: 10px 0;
     width: 100%;
     display: block;
     background-color: grey;
