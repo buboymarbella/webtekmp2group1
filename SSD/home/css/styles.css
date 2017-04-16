@@ -78,4 +78,28 @@ nav a:hover:not(.active) {
 	background-color: #555;
     color: white;
 } 
+
+
+.b {
+	font-family:cambria;
+	font-size:20px;
+	margin-top:10px;
+	padding:10px;	
+	}
+	
+.ssd { 
+	font-weight:700;
+	font-size:13px;
+	margin-left:25px;
+	margin-right:25px;
+	font-family:tahoma;
+	text-indent:50px:
+	
+	}
+	
+ 
+
+
+
+
 /* End of Nav */
