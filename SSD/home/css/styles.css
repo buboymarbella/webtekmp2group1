@@ -1,8 +1,6 @@
 body{
 	margin:0;
-	
 }
-
 .bg {
     background-image: url("../../global/bg.jpg");
     opacity: .2;
@@ -15,8 +13,8 @@ body{
     z-index: -1;
 }
 @media only screen
-and (min-device-width : 450px)
-and (max-device-width : 768px)
+and (min-device-width : 320px)
+and (max-device-width : 1024px)
 {
 	nav {
 		padding: 10px 0;
@@ -26,13 +24,30 @@ and (max-device-width : 768px)
 		font-size:1px;
 	}
 }
-
+.container{
+	width:250px;
+	margin:20px auto;
+	text-align:center;
+	padding:30px 20px;
+	border: 3px solid #1D296C; 
+	background-color:#FAFAFA;
+	box-shadow: 0 6px 19px 0 rgba(0, 0, 0, 0.3), 0 8px 24px 0 rgba(0, 0, 0, 0.30);
+	font-weight:700;
+	font-size:15px;
+	font-family:tahoma;
+	letter-spacing: 2px;
+	line-height: 1.8;
+}
+h1 {
+	font-family:cambria;
+	margin:20px auto;
+	text-align:center;
+}
 /* Nav */
 .dropdown {
     display: inline-block;
     color: white !important;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -49,8 +64,7 @@ and (max-device-width : 768px)
 	background-color: darkgrey;
 }
 .dropdown:hover .dropdown-content {
-    display: block;
-	
+    display: block;	
 }
 nav {
     padding: 10px 0;
@@ -62,12 +76,15 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
-	padding:10px 20px;
-	
+	padding:10px 15px;
+}
+nav div {
+    text-decoration: none;
+    color: white;
+	padding:0 15px;
 }
 nav a:hover {
 	text-decoration: none;
-	
 }
 .active {
 	background-color: #192050;
@@ -78,28 +95,4 @@ nav a:hover:not(.active) {
 	background-color: #555;
     color: white;
 } 
-
-
-.b {
-	font-family:cambria;
-	font-size:20px;
-	margin-top:10px;
-	padding:10px;	
-	}
-	
-.ssd { 
-	font-weight:700;
-	font-size:13px;
-	margin-left:25px;
-	margin-right:25px;
-	font-family:tahoma;
-	text-indent:50px:
-	
-	}
-	
- 
-
-
-
-
 /* End of Nav */

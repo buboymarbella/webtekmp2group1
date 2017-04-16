@@ -1,7 +1,6 @@
 body{
 	margin:0;
 }
-
 .bg {
     background-image: url("../../global/bg.jpg");
     opacity: .2;
@@ -15,7 +14,7 @@ body{
 }
 @media only screen
 and (min-device-width : 320px)
-and (max-device-width : 768px)
+and (max-device-width : 1024px)
 {
 	nav {
 		padding: 10px 0;
@@ -25,8 +24,18 @@ and (max-device-width : 768px)
 		font-size:1px;
 	}
 	.container{
-		width:90%;
-		margin:auto;
+		width:95%;
+		margin:15px auto;
+		padding-top:5px;
+		border: 3px solid #1D296C; 
+		background-color:#FAFAFA;
+		box-shadow: 0 6px 19px 0 rgba(0, 0, 0, 0.3), 0 8px 24px 0 rgba(0, 0, 0, 0.30);
+	}
+	h1{
+		text-align:center;
+		padding:0;
+		margin-top:10px;
+		color:#1D296C;
 	}
 	#myTable{
 		resize:both;
@@ -34,8 +43,7 @@ and (max-device-width : 768px)
 		width:100%;
 		table-layout: fixed;
 		margin:auto;
-		text-align:center;
-		
+		text-align:center;		
 	}
 	td {
 		resize: both;
@@ -52,7 +60,6 @@ and (max-device-width : 768px)
     display: inline-block;
     color: white !important;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -61,41 +68,45 @@ and (max-device-width : 768px)
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px;
     z-index: 1;
-	}
-	.dropdown-content a {
-		display: block;
-	}
-	.dropdown-content a:hover {
-		background-color: darkgrey;
-	}
-	.dropdown:hover .dropdown-content {
-		display: block;
-		
-	}
-	nav {
-		padding: 10px 0;
-		width: 100%;
-		display: block;
-		background-color: grey;
-		font-size:12px;
-	}
-	nav a {
-		text-decoration: none;
-		color: white;
-		padding:10px 20px;
-		
-	}
-	nav a:hover {
-		text-decoration: none;
-		
-	}
-	.active {
-		background-color: #192050;
-		color: white;
-		border-radius
-	}
-	nav a:hover:not(.active) {
-		background-color: #555;
-		color: white;
-	} 
+}
+.dropdown-content a {
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: darkgrey;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+nav {
+	padding: 10px 0;
+	width: 100%;
+	display: block;
+	background-color: grey;
+	font-size:12px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+	padding:10px 15px;
+	
+}
+nav div {
+    text-decoration: none;
+    color: white;
+	padding:0 15px;
+}
+nav a:hover {
+	text-decoration: none;
+	
+}
+.active {
+	background-color: #192050;
+	color: white;
+	border-radius
+}
+nav a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+} 
 /* End of Nav */
