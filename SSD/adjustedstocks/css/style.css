@@ -1,4 +1,29 @@
 body{margin:0;}
+.container{
+	width:90%;
+	margin:auto;
+}
+.table{
+	resize:both;
+	overflow:auto;
+	width:100%;
+	table-layout: fixed;
+	margin:auto;
+	text-align:center;
+	border: 1px solid black;
+}
+td {
+	resize: both;
+	font-size:9px;	
+	overflow:auto; //Equality
+	border: 1px solid black; 
+	
+}
+th {
+	resize: both; 
+	font-size:9px;
+	
+}
 /* Nav */
 .dropdown {
     display: inline-block;
