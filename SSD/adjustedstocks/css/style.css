@@ -13,28 +13,39 @@ body{
     left: 0;
     z-index: -1;
 }
-
-.container{
-	width:90%;
-	margin:auto;
-}
-#myTable{
-	resize:both;
-	overflow:auto;
-	width:100%;
-	table-layout: fixed;
-	margin:auto;
-	text-align:center;
-
-}
-td {
-	resize: both;
-	font-size:9px;	
-	overflow:auto;
-}
-th {
-	resize: both; 
-	font-size:20px;	
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 768px)
+{
+	nav {
+		padding: 10px 0;
+		width: 100%;
+		display: block;
+		background-color: grey;
+		font-size:1px;
+	}
+	.container{
+		width:90%;
+		margin:auto;
+	}
+	#myTable{
+		resize:both;
+		overflow:auto;
+		width:100%;
+		table-layout: fixed;
+		margin:auto;
+		text-align:center;
+		
+	}
+	td {
+		resize: both;
+		font-size:9px;	
+		overflow:auto;
+	}
+	th {
+		resize: both; 
+		font-size:20px;	
+	}
 }
 /* Nav */
 .dropdown {
@@ -50,41 +61,41 @@ th {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px;
     z-index: 1;
-}
-.dropdown-content a {
-	display: block;
-}
-.dropdown-content a:hover {
-	background-color: darkgrey;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-	
-}
-nav {
-    padding: 10px 0;
-    width: 100%;
-    display: block;
-    background-color: grey;
-    font-size:20px;
-}
-nav a {
-    text-decoration: none;
-    color: white;
-	padding:10px 20px;
-	
-}
-nav a:hover {
-	text-decoration: none;
-	
-}
-.active {
-	background-color: #192050;
-    color: white;
-	border-radius
-}
-nav a:hover:not(.active) {
-	background-color: #555;
-    color: white;
-} 
+	}
+	.dropdown-content a {
+		display: block;
+	}
+	.dropdown-content a:hover {
+		background-color: darkgrey;
+	}
+	.dropdown:hover .dropdown-content {
+		display: block;
+		
+	}
+	nav {
+		padding: 10px 0;
+		width: 100%;
+		display: block;
+		background-color: grey;
+		font-size:12px;
+	}
+	nav a {
+		text-decoration: none;
+		color: white;
+		padding:10px 20px;
+		
+	}
+	nav a:hover {
+		text-decoration: none;
+		
+	}
+	.active {
+		background-color: #192050;
+		color: white;
+		border-radius
+	}
+	nav a:hover:not(.active) {
+		background-color: #555;
+		color: white;
+	} 
 /* End of Nav */
