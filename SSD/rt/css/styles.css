@@ -30,7 +30,7 @@ and (max-device-width : 768px)
 	}
 	.table{
 		overflow:auto;
-		width:10vh;
+		width:100%;
 		table-layout: fixed;
 		margin:auto;
 		text-align:center;
