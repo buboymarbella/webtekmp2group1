@@ -1,7 +1,6 @@
 body{
 	margin:0;
 }
-
 .bg {
     background-image: url("../../global/bg.jpg");
     opacity: .2;
@@ -24,12 +23,11 @@ body{
 	table-layout: fixed;
 	margin:auto;
 	text-align:center;
-	border: 1px solid black;
 }
 td, th {
 	font-size:15px;	
-	overflow:auto;
-	padding:5px;
+	padding:5px 0px;
+	margin:0;
 }
 /* Nav */
 .dropdown {
@@ -61,17 +59,25 @@ nav {
     width: 100%;
     display: block;
     background-color: grey;
-    ;
+    font-size:20px;
 }
 nav a {
     text-decoration: none;
-    color: white !important;
-	padding:10px;
-	
+    color: white;
+	padding:10px 20px;
 	
 }
 nav a:hover {
 	text-decoration: none;
 	
 }
+.active {
+	background-color: #192050;
+    color: white;
+	border-radius
+}
+nav a:hover:not(.active) {
+	background-color: #555;
+    color: white;
+} 
 /* End of Nav */
