@@ -3,26 +3,23 @@ body{margin:0;}
 	width:90%;
 	margin:auto;
 }
-.table{
+#myTable{
 	resize:both;
 	overflow:auto;
 	width:100%;
 	table-layout: fixed;
 	margin:auto;
 	text-align:center;
-	border: 1px solid black;
+
 }
 td {
 	resize: both;
 	font-size:9px;	
-	overflow:auto; //Equality
-	border: 1px solid black; 
-	
+	overflow:auto;
 }
 th {
 	resize: both; 
-	font-size:9px;
-	
+	font-size:9px;	
 }
 /* Nav */
 .dropdown {

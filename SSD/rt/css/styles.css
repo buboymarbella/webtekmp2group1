@@ -4,7 +4,6 @@ body{margin:0;}
 	margin:auto;
 }
 .table{
-	resize:both;
 	overflow:auto;
 	width:100%;
 	table-layout: fixed;
@@ -12,17 +11,10 @@ body{margin:0;}
 	text-align:center;
 	border: 1px solid black;
 }
-td {
-	resize: both;
-	font-size:9px;	
-	overflow:auto; //Equality
-	border: 1px solid black; 
-	
-}
-th {
-	resize: both; 
-	font-size:9px;
-	
+td, th {
+	font-size:15px;	
+	overflow:auto;
+	padding:5px;
 }
 /* Nav */
 .dropdown {
