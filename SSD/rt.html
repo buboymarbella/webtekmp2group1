@@ -1,145 +1,88 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Inventory</title>
-    <link rel="stylesheet" href="rt/styles.css">
-    
-    <link rel="stylesheet" href=>
-</head>
-<body>
-<div class="container">
-<div class="">
-<table class="table">
-  <caption>Purchase Return Transaction</caption>
-  <tr>
-    <th>Borrower</th>
-	<th>Item</th>
-	<th>Quantity</th>
-	<th>Returned Quantity</th>
-	<th>Date Returned</th>
-	<th>Due Date</th>
-	<th>Status</th>
-	<th>Remarks</th>
-  </tr>
-  <tr>
-	<td>Richard</td>
-	<td>Item1</td>
-	<td>23</td>
-	<td>
-	<form>
-	<input type="number" name="Returned Quantity">
-	</form>
-	</td>
-	<td>
-	<form>
-	<input type="date" name="Date Returned">
-	</form>
-	</td>
-	<td>due date?</td>
-	<td>
-	<div class = select> 
-	<select>
-	<option value="Returned">Return</option>
-	<option  value="Unreturned">Unreturned</option>
-	</select>
-	</div>
-	</td>
-	<td>
-	<form>
-	<input type="text" name="Remarks">
-	</form>
-	</td>
-	</tr>
-  <tr>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td>
-	<form>
-	<input type="number" name="Returned Quantity">
-	</form>
-	</td>
-	<td>
-	<form>
-	<input type="date" name="Date Returned">
-	</form>
-	</td>
-	<td></td>
-	<td>
-	<div class = select> 
-	<select>
-	<option value="Returned">Return</option>
-	<option  value="Unreturned">Unreturned</option>
-	</select>
-	</div>
-	</td>
-	<td>
-	<form>
-	<input type="text" name="Remarks">
-	</form>
-	</td>
-  </tr>
-  <tr>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td>
-	<form>
-	<input type="number" name="Returned Quantity">
-	</form>
-	</td>
-	<td>
-	<form>
-	<input type="date" name="Date Returned">
-	</form>
-	</td>
-	<td></td>
-	<td>
-	<div class = select> 
-	<select>
-	<option value="Returned">Return</option>
-	<option  value="Unreturned">Unreturned</option>
-	</select>
-	</div>
-	</td>
-	<td>
-	<form>
-	<input type="text" name="Remarks">
-	</form>
-	</td>
-  </tr>
-  <tr>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td>
-	<form>
-	<input type="number" name="Returned Quantity">
-	</form>
-	</td>
-	<td>
-	<form>
-	<input type="date" name="Date Returned">
-	</form>
-	</td>
-	<td></td>
-	<td>
-	<div class = select> 
-	<select>
-	<option value="Returned">Return</option>
-	<option  value="Unreturned">Unreturned</option>
-	</select>
-	</div>
-	</td>
-	<td>
-	<form>
-	<input type="text" name="Remarks">
-	</form>
-	</td>
-  </tr>
-</div>
-</div>
-</body>
-</html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Return Transaction</title>
+		<link rel="stylesheet" href="rt/css/styles.css">
+		<link rel="stylesheet" href=>
+	</head>
+	<body>
+		<div class="bg">
+		</div>
+		<nav>
+			<a href = "index.html"> Home </a>
+			<div class="dropdown">
+				<span>Lend</span>
+				<div class="dropdown-content">
+					<a href = "borrowform.html"> Borrow Form </a>
+					<a href = "inventoryview.html"> Inventory</a>
+				</div>
+			</div>
+			<a href = "adjustedstock.html"> AdjustStock</a>
+			<a href = "rt.html" class="active"> Transaction</a>
+		</nav>		
+		<h1>Purchase Return Transaction</h1>
+		<div class="container">
+			<div class="">
+				<table class="table">
+					<tr>
+						<th>Borrower</th>
+						<th>Item</th>
+						<th>Quantity</th>
+						<th>Returned Quantity</th>
+						<th>Date Returned</th>
+						<th>Due Date</th>
+						<th>Status</th>
+						<th>Remarks</th>
+					</tr>
+					<tr>
+						<td>Richard</td>
+						<td>Monoblock Chairs</td>
+						<td>23</td>
+						<td>23</td>
+						<td>04/16/2017</td>
+						<td>04/17/2017
+						</td>
+						<td>
+							<div class = select> 
+								<select>
+									<option value="Returned">Returned</option>
+									<option  value="Unreturned">Unreturned</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<form>
+								<input type="text" name="Remarks">
+							</form>
+						</td>
+					</tr>
+					<tr>
+						<td>Jessie</td>
+						<td>Speakers</td>
+						<td>4</td>
+						<td>3
+						</td>
+						<td>
+							4/20/2017
+						</td>
+						<td>4/21/2017</td>
+						<td>
+							<div class = select> 
+								<select>
+									<option value="Returned">Returned</option>
+									<option  value="Unreturned">Unreturned</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<form>
+								<input type="text" name="Remarks">
+							</form>
+						</td>
+					</tr>
+				</div>
+			</div>
+		</body>
+	</html>																		
