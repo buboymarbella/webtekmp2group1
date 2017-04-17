@@ -4,6 +4,7 @@
 <head>
     <title>SSD</title>
     <link rel="stylesheet" type="text/css" href="borrowform/css/main.css">
+	<script src = "borrowform\js\borrower.js"></script>
 </head>
 
 <body>
@@ -17,7 +18,7 @@
             </div>
     </nav>
     <div class="form">
-        <form action = "borrowform/ajax/barrower.php" method =" post">
+        
             <h3 id='borrowform'>SSD Borrowing Form</h3>
             
 			<p class="contact">
@@ -43,7 +44,7 @@
             <fieldset class= 'calendar'>
                 <label>Date of Borrowing:</label>
                 <label class="month">
-                    <select class="select-style" name="Month">
+                    <select id="month" name="Month">
                         <option value="">Month</option>
                         <option value="01">January</option>
                         <option value="02">February</option>
@@ -61,26 +62,44 @@
                     </select>
                 </label>
                 <label>Day
-                    <input class="dateb" maxlength="10" name="day" placeholder="Day" required="">
+                    <input id="dateb" maxlength="2" name="day" placeholder="Day" required="">
                 </label>
                 <label>Year
-                    <input class="yearb" maxlength="4" name="year" placeholder="Year" required="">
+                    <input id="yearb" maxlength="4" name="year" placeholder="Year" required="">
                 </label>
                 
                     Start Time:
-                    <input type="time" name="strt_time"> End Time:
-                    <input type="time" name="end_time">
+                    <input id = "timeS"type="time" name="strt_time"> End Time:
+                    <input id ="timeE"ype="time" name="end_time">
                 
 
-			<script src = "js/main.js"></script>
+			
             </fieldset>
 
             <p class="contact">
                 <label for="phone">Mobile phone</label>
             </p>
             <input id="phone" name="phone" placeholder="phone number" required="" type="text">
-            <input class="buttom" name="submit" id="submit" tabindex="5" value="send" type="submit">
-        </form>
+            <input type="button" id="submit" value= "submit" onclick="register()" />
+      
+		<table id = "submited">
+			<thead>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+				<th>Mobile</th>
+				<th>Event Name</th>
+				<th>Month</th>
+				<th>Time Barrowed</th>
+				<th> Time Returned</th>
+				
+			</thead>
+		<tbody> 
+		</tbody>
+			
+			
+		</table>
+		
     </div>
 </body>
 
